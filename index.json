@@ -1,0 +1,32 @@
+{
+  "title": "Docker Compose",
+  "description": "Pada exercise ini, kita akan mempelajari cara menggunakan docker compose untuk mempermudah penggunaan docker",
+  "time": "30 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Apa itu Docker Compose",
+        "path": "step1.md",
+        "type": "markdown"
+      },
+      {
+        "title": "Menggunakan Docker Compose",
+        "path": "step2.md",
+        "type": "markdown"
+      }
+    ],
+    "intro": {
+      "content": "intro.md"
+    },
+    "finish": {
+      "content": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor"
+  },
+  "backend": {
+    "imageid": "playground-v2",
+    "open_ports": [80, 8000, 8080]
+  }
+}
